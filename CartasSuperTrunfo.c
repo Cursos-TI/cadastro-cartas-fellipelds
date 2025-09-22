@@ -26,7 +26,7 @@ int main() {
     scanf("%d", &populacao1);
 
     printf("Área: ");
-    scanf("%f", &area1);
+    scanf(" %f", &area1);
 
     printf("PIB: ");
     scanf("%f", &pib1);
@@ -57,7 +57,7 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-    printf("\nSegue abaixo, os dados das cartas inseridas:\n\nCarta 1:\nEstado: %s \nCódigo da carta: %s \nNome da cidade: %s \nPopulação: %d \nÁrea: %f \nPIB: %f \nNúmero de pontos túristicos: %d \n", &estado1, &codigo1, &cidade1, &populacao1, &area1, &pib1, &turistico1);
+    printf("\nSegue abaixo, os dados das cartas inseridas:\n\nCarta 1:\nEstado: %s \nCódigo da carta: %s \nNome da cidade: %s \nPopulação: %d \nÁrea: %.2f \nPIB: %.2f \nNúmero de pontos túristicos: %d \n", estado1, codigo1, cidade1, populacao1, area1, pib1, turistico1);
 
 return 0;
 

@@ -57,7 +57,24 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-    printf("\nSegue abaixo, os dados das cartas inseridas:\n\nCarta 1:\nEstado: %s \nCódigo da carta: %s \nNome da cidade: %s \nPopulação: %d \nÁrea: %.2f \nPIB: %.2f \nNúmero de pontos túristicos: %d \n", estado1, codigo1, cidade1, populacao1, area1, pib1, turistico1);
+    printf("\nSegue abaixo, as cartas com os dados informados:\n");
+    printf("\nCarta 1:\n");
+    printf("\nEstado: %s ", estado1);
+    printf("\nCódigo: %s ", codigo1);
+    printf("\nNome da Cidade: %s ", cidade1);
+    printf("\nPopulação: %d ", populacao1);
+    printf("\nÁrea: %.2f km²", area1);
+    printf("\nPIB: %.2f bilhões de reais", pib1);
+    printf("\nNúmero de pontos turísticos: %d \n", turistico1);
+
+    printf("\nCarta 2:\n");
+    printf("\nEstado: %s ", estado2);
+    printf("\nCódigo: %s ", codigo2);
+    printf("\nNome da Cidade: %s ", cidade2);
+    printf("\nPopulação: %d ", populacao2);
+    printf("\nÁrea: %.2f km²", area2);
+    printf("\nPIB: %.2f bilhões de reais", pib2);
+    printf("\nNúmero de pontos turísticos: %d \n", turistico2);
 
 return 0;
 

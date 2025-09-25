@@ -86,6 +86,9 @@ int main() {
     printf("\nDensidade Populacional: %.2f hab/km²", densidadepop2);
     printf("\nPIB per Capita: %.2f reais \n", pibper2);
 
+    printf("COMPARAÇÃO DE CARTAS!\n");
+    printf("População: Carta 1 venceu %d", populacao1 > populacao2);
+
 return 0;
 
 };

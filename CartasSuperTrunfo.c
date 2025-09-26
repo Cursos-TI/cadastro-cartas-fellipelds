@@ -88,11 +88,11 @@ int main() {
 
     printf("COMPARAÇÃO DE CARTAS!\n");
     printf("População: Carta 1 venceu: %d \n", populacao1 > populacao2);
-    printf("Área: Carta 2 venceu: %f \n", area2 > area1);
-    printf("PIB: Carta 1 venceu: %f \n", pib1 > pib2);
+    printf("Área: Carta 2 venceu: %d \n", area2 > area1);
+    printf("PIB: Carta 1 venceu: %d \n", pib1 > pib2);
     printf("Pontos Turísticos: Carta 2 venceu: %d \n", turistico2 > turistico1);
-    printf("Densidade Populacional: Carta 1 venceu: %f \n", densidadepop1 > densidadepop2);
-    printf("PIB per Capita: Carta 2 venceu: %f \n", pibper2 > pibper1);
+    printf("Densidade Populacional: Carta 1 venceu: %d \n", densidadepop1 > densidadepop2);
+    printf("PIB per Capita: Carta 2 venceu: %d \n", pibper2 > pibper1);
     printf("Super Poder: Carta 1 venceu: %d \n", superp1 > superp2);
 
 return 0;

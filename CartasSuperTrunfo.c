@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
-// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
-
 int main() {
+    
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
     char estado1[50], codigo1[10], cidade1[20], estado2[50], codigo2[10], cidade2[20];
@@ -87,7 +84,8 @@ int main() {
     printf("\nPIB: %.2f reais", pib1);
     printf("\nNúmero de pontos turísticos: %d", turistico1);
     printf("\nDensidade Populacional: %.2f hab/km²", densidadepop1);
-    printf("\nPIB per Capita: %.2f \n", pibper1);
+    printf("\nPIB per Capita: %.2f", pibper1);
+    printf("\nSuper Poder: %.2f \n", supp1);
 
     printf("\nCarta 2:\n");
     printf("\nEstado: %s ", estado2);
@@ -98,16 +96,17 @@ int main() {
     printf("\nPIB: %.2f reais", pib2);
     printf("\nNúmero de pontos turísticos: %d", turistico2);
     printf("\nDensidade Populacional: %.2f hab/km²", densidadepop2);
-    printf("\nPIB per Capita: %.2f reais \n \n", pibper2);
+    printf("\nPIB per Capita: %.2f reais", pibper2);
+    printf("\nSuper Poder: %.2f \n", supp2);
 
-    printf("COMPARAÇÃO DE CARTAS!\n");
-    printf("População: Carta 1 venceu: %d \n", populacao1 > populacao2);
+    printf("\nCOMPARAÇÃO DE CARTAS!\n");
+    printf("\nPopulação: Carta 1 venceu: %d \n", populacao1 > populacao2);
     printf("Área: Carta 2 venceu: %d \n", area2 > area1);
     printf("PIB: Carta 1 venceu: %d \n", pib1 > pib2);
     printf("Pontos Turísticos: Carta 2 venceu: %d \n", turistico2 > turistico1);
     printf("Densidade Populacional: Carta 1 venceu: %d \n", densidadepop1 < densidadepop2);
     printf("PIB per Capita: Carta 2 venceu: %d \n", pibper2 > pibper1);
-    printf("SuperPoder: Carta 2 venceu: %d \n", supp2 > supp1);
+    printf("Super Poder: Carta 2 venceu: %d \n", supp2 > supp1);
 
 return 0;
 
